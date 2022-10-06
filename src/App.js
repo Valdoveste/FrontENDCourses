@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import JSXSimple from './components/Create_a_Simple_JSX_Element.jsx';
+import JSXComplex from './components/Create_a_Complex_JSX_Element.jsx';
+import JSXComment from './components/Add Comments in JSX.jsx';
+import JSXRender from './components/Render HTML Elements to the DOM.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <JSXSimple></JSXSimple>
+      <JSXComplex></JSXComplex>
+      <JSXComment></JSXComment>
+      <JSXRender></JSXRender>
+    </>
   );
 }
 
